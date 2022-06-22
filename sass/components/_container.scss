@@ -1,12 +1,11 @@
 .container {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
-    min-width: 320px;
 
     @include mq (mobile) {
-        width: 480px;
+        width: 320px;
     }
 
     @include mq (tablet) {
@@ -14,6 +13,6 @@
     }
 
     @include mq (desktop) {
-        width: 1200px;
+        width: 1280px;
     }
 }
